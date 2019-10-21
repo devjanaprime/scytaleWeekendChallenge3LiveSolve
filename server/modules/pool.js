@@ -8,4 +8,4 @@ const pool = pg.Pool({
     idleTimeoutMillis: 30000
 }); // end Pool
 
-module.export = pool;
+module.exports = pool;
