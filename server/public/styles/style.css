@@ -1,3 +1,15 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.complete{
+    background-color: green;
+}
+
+.incomplete{
+    background-color: red;
+}
+
+.task{
+    color: azure;
+}
