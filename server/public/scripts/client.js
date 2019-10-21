@@ -1,5 +1,10 @@
 $( document ).ready( onReady );
 
+function addTask(){
+    const taskName = $( '#taskNameIn' ).val();
+    console.log( 'in addTask:', taskName );
+} // end addTask
+
 function onReady(){
-    console.log( 'JQ' );
+    $( '#addTaskButton' ).on( 'click', addTask );
 }
